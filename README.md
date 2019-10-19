@@ -15,4 +15,4 @@ Facebook: [Alexandar Galabov](https://www.facebook.com/alexandar.galabov)
 E-mail: radomirk@uni-sofia.bg
 
 ## Структура:
-* [Упражнения](еxercises)
+* [Упражнения](./exercises)
