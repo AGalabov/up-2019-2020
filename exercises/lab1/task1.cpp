@@ -59,14 +59,14 @@ int main()
     cout << int1 << " / " << float1 << " = " << int1 / float1 << endl;
     cout << float1 << " / " << int1 << " = " << float1 / int1 << endl;
     cout << double1 << " / " << float1 << " = " << double1 / float1 << endl;
-    //Note: int is considered as a double/float and it works just fine
+    // Note: int is considered as a double/float and it works just fine
 
     // cout << int1 << " % " << float1 << " = " << int1 % float1 << endl;
     // cout << float1 << " % " << int1 << " = " << float1 % int1 << endl;
 
-    //Note2: because of that we cant use % to find remainders even if one
-    //of the operands is an integer(no matter if left or right)
-    //So the previous commented code would cause an error:
+    // Note2: because of that we cant use % to find remainders even if one
+    // of the operands is an integer(no matter if left or right)
+    // So the previous commented code would cause an error:
 
     return 0;
 }
