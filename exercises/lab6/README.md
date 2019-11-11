@@ -6,7 +6,7 @@
 - [`strlen`](http://www.cplusplus.com/reference/cstring/strlen/)
 - [`strcmp`](http://www.cplusplus.com/reference/cstring/strcmp/)
 
-[Решение strlen](./task1-strlen.cpp)
+[Решение strlen](./task1-strlen.cpp)\
 [Решение strcmp](./task1-strcmp.cpp)
 
 ## Задача 2
@@ -30,7 +30,7 @@
 ## Задача 4
 Напишете функция която приема стринг(масив от символи) с го сортира лексикографски.
 
-[Решение](./task4-bubble-sort.cpp) - чрез [Bubble sort](https://www.geeksforgeeks.org/bubble-sort/)
+[Решение](./task4-bubble-sort.cpp) - чрез [Bubble sort](https://www.geeksforgeeks.org/bubble-sort/)\
 [Решение](./task4-selection-sort.cpp) - чрез [Selection sort](https://www.geeksforgeeks.org/selection-sort/)
 
 ## Задачa за самоподготовка - за контролно
