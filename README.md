@@ -17,6 +17,7 @@ Facebook: [Радомир Колев](https://www.facebook.com/profile.php?id=10
 
 ## Структура:
 * [Упражнения](./exercises)
+* [Контролни](./exams)
 
 ## Оценяване:
 * Текущ контрол(ТК)\
