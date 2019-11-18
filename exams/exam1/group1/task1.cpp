@@ -7,20 +7,22 @@ bool pointIsInSquare(double pX, double pY, double sX, double sY, double length)
     return pX >= sX && pX <= sX + length && pY >= sX - length && pY <= sY;
 }
 
+int getValidNum()
+{
+    int x;
+    do
+    {
+        cout << "Enter a natural number not bigger than 10:" << endl;
+        cin >> x;
+    } while (x <= 0 || x > 10);
+    return x;
+}
+
 int main()
 {
     int S, P;
-    do
-    {
-        cout << "Enter a natural number S not bigger than 10:" << endl;
-        cin >> S;
-    } while (S <= 0 || S > 10);
-
-    do
-    {
-        cout << "Enter a natural number P not bigger than 10:" << endl;
-        cin >> P;
-    } while (P <= 0 || P > 10);
+    S = getValidNum();
+    P = getValidNum();
 
     double topLeftX[10];
     double topLeftY[10];

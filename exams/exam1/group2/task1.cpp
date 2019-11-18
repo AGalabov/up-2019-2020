@@ -8,20 +8,23 @@ bool pointIsInCircle(double pX, double pY, double cX, double cY, double radius)
     return distance <= radius * radius;
 }
 
+int getValidNum()
+{
+    int x;
+    do
+    {
+        cout << "Enter a natural number not bigger than 10:" << endl;
+        cin >> x;
+    } while (x <= 0 || x > 10);
+    return x;
+}
+
 int main()
 {
     int C, P;
-    do
-    {
-        cout << "Enter a natural number C not bigger than 10:" << endl;
-        cin >> C;
-    } while (C <= 0 || C > 10);
 
-    do
-    {
-        cout << "Enter a natural number P not bigger than 10:" << endl;
-        cin >> P;
-    } while (P <= 0 || P > 10);
+    C = getValidNum();
+    P = getValidNum();
 
     double centerX[10];
     double centerY[10];
@@ -79,7 +82,7 @@ int main()
             maxPoints = pointsInCircleCount;
         }
     }
-    cout << "Points that are  not in any circles: " << pointsInNoCircles << endl;
+    cout << "Points that are not in any circles: " << pointsInNoCircles << endl;
     cout << "Circles with atleast 1 point in it: " << circlesWithPoints << endl;
     cout << "Max number of points within 1 circle: " << maxPoints << endl;
 }
